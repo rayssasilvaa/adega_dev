@@ -1,0 +1,78 @@
+@use '../variables'
+
+.grid-container-beer
+    display: flex
+    justify-content: space-between
+    align-items: center
+    gap: 50px
+    flex-wrap: wrap
+    padding: 100px
+
+    .image-card-beer
+        flex: 1 1 23%
+        border: 1px solid variables.$black
+        text-align: center
+        border-radius: 5px
+        padding: 30px
+        margin-top: 3rem
+
+    img
+        width: 100%
+
+    .image-card-beer.skolFardo img
+        width: 390px
+
+    .image-card-beer.brahmaFardo img
+        width: 300px
+
+    .image-card-beer.itaipavaFardo img
+        width: 300px
+
+    .image-card-beer.lataHeiniken img
+        width: 350px
+
+    .image-card-beer.lataBud img
+        width: 350px
+
+    .image-card-beer.lataSkol img
+        width: 189px
+
+    .image-card-beer.lataItaipava img
+        width: 350px
+
+    .image-card-beer.lataBrahma img
+        width: 350px
+
+    .image-card-beer.lataDuplo img
+        width: 350px
+
+    h3
+        margin-bottom: 10px
+
+    .price
+        font-size: 17px
+
+    .plus
+        position: absolute
+        background-color: transparent
+        border: none
+        cursor: pointer
+        color: variables.$dark
+        font-size: 1.1em
+        margin-left: 5px
+
+@media screen and (max-width: 768px)
+    .grid-container-beer
+        flex-direction: column
+        padding: 20px 40px
+
+    .image-card-beer
+        width: 100%
+
+    img
+        margin: 0 auto
+        width: 300px !important
+
+    .image-card-beer
+        &.lataSkol img
+            width: 159px !important

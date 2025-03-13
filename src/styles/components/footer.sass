@@ -1,0 +1,48 @@
+@use '../variables'           
+
+.footer-container
+  width: 100%
+  background-color: variables.$bege
+  padding: 20px
+  display: flex
+  align-items: center
+  justify-content: space-around
+
+  .social-list
+    li
+      list-style: none
+      padding: 3px
+
+    a
+      color: variables.$dark
+      text-decoration: none
+      margin-left: 15px
+      padding: 5px
+
+  .icones
+    position: absolute
+    left: 14.5rem
+    font-size: 20px
+
+  .info
+    padding: 5px
+
+    span
+      color: variables.$dark
+
+@media screen and (max-width: 768px)
+  .footer-container
+    flex-direction: column
+    text-align: center
+
+  .footer-container p
+    margin-top: 10px
+
+  .social-list
+    padding: 10px
+
+    .icones
+      margin-left: -90px
+
+  .info
+    margin-top: 10px

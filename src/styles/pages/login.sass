@@ -1,0 +1,85 @@
+@use '../variables'
+
+.box_login
+    height: 100vh
+    display: flex
+    align-items: center
+    justify-content: center
+
+    .login
+        display: flex
+        flex-direction: column
+        background-color: variables.$bege
+        width: 500px
+        height: 500px
+        text-align: center
+        border-radius: 6px
+        padding: 5px
+        box-shadow: 5px 5px 5px #0000003d
+
+        h2
+            margin: 10px
+            font-family: Arial, Helvetica, sans-serif
+            padding: 10px
+            font-size: 40px
+
+        .account
+            label
+                font-size: 18px
+                padding: 5px
+
+            input
+                margin: 10px
+                outline: none
+                padding: 10px
+                width: 330px
+                height: 40px
+                font-size: 16px
+                background-color: transparent
+                border: 1px solid variables.$black
+                border-radius: 9px
+
+        .check
+            display: flex
+            margin: 1% 10%
+            gap: 6px
+
+        .enter
+            cursor: pointer
+            margin: 3% 45%
+            background: none
+            border: 1px solid #666262
+            width: 60px
+            height: 35px
+            border-radius: 8px
+            font-size: 15px
+
+            .arrow
+                position: absolute
+                margin: -10px -10px
+                font-size: 20px
+                color: #110f0f96
+
+        a
+            color: variables.$dark
+            margin: 10px
+
+        .social
+            width: 40px
+            height: 40px
+            font-size: 40px
+            background: none
+            border: none
+            cursor: pointer
+            margin: 10px
+
+@media screen and (max-width: 768px)
+    .box_login
+        width: 100%
+        padding: 30px
+
+    .login
+        h2
+            font-size: 20px
+
+    

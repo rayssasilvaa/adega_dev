@@ -1,0 +1,179 @@
+@use '../variables'
+
+.car-container
+  display: flex
+  flex-direction: column
+  min-height: 100vh // Garante que o conteúdo ocupe toda a altura da página
+  color: variables.$black
+  border-bottom: 2px
+
+  .cart
+    flex: 1 // Faz o conteúdo do carrinho ocupar todo o espaço disponível
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    padding-bottom: 80px // Garantir que o conteúdo não sobreponha o footer
+
+    h3
+      font-size: 2rem
+      padding: 2rem
+      text-align: center
+
+    .buy
+      position: absolute
+      top: 6rem
+      left: 5rem
+      background: transparent
+      padding: 9px
+      border: none
+      font-size: 15px
+      font-weight: bold
+      cursor: pointer
+
+      .arrow
+        position: absolute
+        font-size: 2rem
+        left: -2rem
+        top: 1px
+
+      a
+        color: variables.$black
+        text-decoration: none
+
+  p
+    font-weight: bold
+
+  li
+    border-bottom: 1px solid black
+    padding: 1rem
+
+  img
+    width: 90px
+
+  .content-left
+    margin-left: 4rem
+
+  .trash
+    font-size: 1.5rem
+    background: none
+    border: none
+    cursor: pointer
+
+  .car-void
+    text-align: center
+
+  .total
+    margin-left: 5rem
+    padding: 20px 0
+
+    .pay
+      margin-top: 10px
+
+    .credit_card
+      color: #000764
+
+    .money
+      color: green
+
+    button
+      font-size: 20px
+      background: none
+      border: none
+      padding: 5px
+      cursor: pointer
+
+    button.selected
+      border: 1px solid variables.$black
+      border-radius: 3px
+
+    .change
+      position: absolute
+      width: 200px
+      height: 30px
+      padding: 5px
+      outline: none
+      margin: 5px
+
+  .address
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding: 10px
+
+    p
+      font-size: 1.2rem
+      margin: 5px
+
+    input
+      width: 200px
+      height: 30px
+      padding: 10px
+      outline: none
+      margin: 5px
+
+    .toSend
+      background: #0bc414
+      padding: 9px
+      border: 1px solid variables.$black
+      border-radius: 10px
+      cursor: pointer
+
+.footer-container
+  width: 100%
+  background-color: variables.$bege
+  padding: 20px
+  display: flex
+  align-items: center
+  justify-content: space-around
+  bottom: 0
+
+  .social-list
+    li
+      list-style: none
+      padding: 3px
+
+    a
+      color: variables.$dark
+      text-decoration: none
+      margin-left: 15px
+      padding: 5px
+
+  .icones
+    position: absolute
+    left: 14.5rem
+    font-size: 20px
+
+  .info
+    padding: 5px
+
+    span
+      color: variables.$dark
+
+@media screen and (max-width: 768px)
+
+  .car-container
+    .cart
+      .buy
+        position: relative
+        top: -23rem
+
+      .arrow
+        position: relative
+        top: 20px
+        
+  .footer-container
+    flex-direction: column
+    text-align: center
+
+  .footer-container p
+    margin-top: 10px
+
+  .social-list
+    padding: 10px
+
+    .icones
+      margin-left: -90px
+
+  .info
+    margin-top: 10px

@@ -1,0 +1,73 @@
+[
+    {
+        "id" : 1,
+        "src" : "src/assets/var/appleIce.webp",
+        "title" : "Syn Ice Maça verde",
+        "price" : "R$ 3,50",
+        "size" : "appleIce"
+    },
+
+    {
+        "id" : 2,
+        "src" : "src/assets/var/kiwiIce.webp",
+        "title" : "Syn Ice Kiwi",
+        "price" : "R$ 3,50",
+        "size" : "kiwiIce"
+    },
+
+    {
+        "id" : 3,
+        "src" : "src/assets/var/morangoIce.webp",
+        "title" : "Syn Ice Morango",
+        "price" : "R$ 3,50",
+        "size" : "morangoIce"
+    },
+
+    {
+        "id" : 4,
+        "src" : "src/assets/var/mansaoColors.webp",
+        "title" : "Mansão Maromba Colors",
+        "price" : "R$ 10,00",
+        "size" : "mColors"
+    },
+
+    {
+        "id" : 5,
+        "src" : "src/assets/var/mansaoVodka.webp",
+        "title" : "Mansão Maromba Vodka",
+        "price" : "R$ 9,50",
+        "size" : "mVodka"
+    },
+
+    {
+        "id" : 6,
+        "src" : "src/assets/var/mansaoWhisky.webp",
+        "title" : "Mansão Maromba Whisky",
+        "price" : "R$ 10,00",
+        "size" : "mWhisky"
+    },
+
+    {
+        "id" : 7,
+        "src" : "src/assets/var/senses.webp",
+        "title" : "Skol Beats Senses",
+        "price" : "R$ 6,50",
+        "size" : "senses"
+    },
+
+    {
+        "id" : 8,
+        "src" : "src/assets/var/redfruits.webp",
+        "title" : "Skol Beats Frutas Vermelhas",
+        "price" : "R$ 6,50",
+        "size" : "redfruits"
+    },
+
+    {
+        "id" : 9,
+        "src" : "src/assets/var/gt.webp",
+        "title" : "Skol Beats GT",
+        "price" : "R$ 6,50",
+        "size" : "gt"
+    }
+]

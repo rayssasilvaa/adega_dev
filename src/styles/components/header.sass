@@ -1,0 +1,124 @@
+@use '../variables'
+
+.header
+    background-color: variables.$bege
+    padding: 20px
+    width: 100%
+    box-shadow: 4px 4px 4px #0000003b
+
+    nav
+        display: flex
+        justify-content: center
+        h1
+            position: absolute
+            left: 2rem
+            margin-top: -5px
+            font-size: 2rem
+            text-shadow: 2px 2px #0000003b   
+
+            .title-main
+                color: variables.$dark
+
+    ul
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 90px
+
+        li
+            list-style: none
+            padding: 5px
+
+            a
+                color: variables.$dark
+                text-decoration: none
+                font-size: 1.2rem
+                transition: .3s
+                border-bottom: 2px solid transparent
+
+                &:hover
+                    border-bottom: 1px solid
+
+    button
+        position: absolute
+        background: none
+        right: 2rem
+        border: none
+        padding: 5px
+        font-size: 1rem
+        font-weight: bold
+
+        .car
+            color: variables.$dark
+            font-size: 1.4rem
+            margin: 90px
+            cursor: pointer
+            
+        .btn-login
+            border: 1px solid variables.$black
+            padding: 5px
+            border-radius: 6px
+        a
+            color: variables.$dark
+            text-decoration: none
+
+    .menu-icon
+        color: transparent
+
+    @media screen and (max-width: 768px)
+
+        header
+            padding: 10px
+
+        nav
+            flex-direction: column
+            align-items: center
+            padding: 20px
+            margin: 20px
+
+        h1
+            position: absolute
+            top: 58px
+            margin-left: 95px
+
+        .menu-icon
+            font-size: 1.5rem
+            color: variables.$black
+            margin-left: 20rem
+            font-weight: bold
+            display: block
+            cursor: pointer
+
+        ul
+            margin: 10px
+            display: none
+            width: 100%
+            flex-direction: column
+            padding: 0
+            gap: 10px
+            align-items: center
+
+            li
+                width: 100%
+                text-align: center
+                border-bottom: none
+                padding: 10px
+
+                a
+                    font-size: 1.5rem
+                    padding: 10px 20px
+                    width: 100%
+
+        ul.open
+            display: flex
+
+        button
+            position: relative
+            margin-left: 4rem
+
+        .car
+            margin-right: 5px
+
+        .btn-login
+            border: 1px solid variables.$white
+            border-radius: 3px

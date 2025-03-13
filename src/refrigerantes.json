@@ -1,0 +1,73 @@
+[
+    {
+        "id" : 1,
+        "src" : "src/assets/refrigerantes/coca-cola.webp",
+        "title" : "Coca-Cola 2L",
+        "price" : "R$ 9,50",
+        "size" : "coca"
+    },
+
+    {
+        "id" : 2,
+        "src" : "src/assets/refrigerantes/pepsi.webp",
+        "title" : "Pepsi 2L",
+        "price" : "R$ 8,50",
+        "size" : "pepsi"
+    },
+
+    {
+        "id" : 3,
+        "src" : "src/assets/refrigerantes/fantaLaranja.webp",
+        "title" : "Fanta Laranja 2L",
+        "price" : "R$ 6,00",
+        "size" : "fantaL"
+    },
+
+    {
+        "id" : 4,
+        "src" : "src/assets/refrigerantes/fantaUva.webp",
+        "title" : "Fanta Uva 2L",
+        "price" : "R$ 6,00",
+        "size" : "FantaU"
+    },
+
+    {
+        "id" : 5,
+        "src" : "src/assets/refrigerantes/antartica.webp",
+        "title" : "Guaraná Antarticá 2L",
+        "price" : "R$ 6,50",
+        "size" : "antartica"
+    },
+
+    {
+        "id" : 6,
+        "src" : "src/assets/refrigerantes/sprite.webp",
+        "title" : "Refrigerante Sprite",
+        "price" : "R$ 7,00",
+        "size" : "sprite"
+    },
+
+    {
+        "id" : 7,
+        "src" : "src/assets/refrigerantes/coca0.webp",
+        "title" : "Coca-Cola zero açucar",
+        "price" : "R$ 5,50",
+        "size" : "coca0"
+    },
+
+    {
+        "id" : 8,
+        "src" : "src/assets/refrigerantes/pepsi0.webp",
+        "title" : "Pepsi zero açucar",
+        "price" : "R$ 5,50",
+        "size" : "heineken"
+    },
+
+    {
+        "id" : 9,
+        "src" : "src/assets/refrigerantes/antartica0.webp",
+        "title" : "Guaraná Antarticá zero açucar",
+        "price" : "R$ 6,00",
+        "size" : "antartica0"
+    }
+]

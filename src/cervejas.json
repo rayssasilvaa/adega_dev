@@ -1,0 +1,73 @@
+[
+    {
+        "id" : 1,
+        "src" : "src/assets/cervejas/fardoSkol.webp",
+        "title" : "Skol Fardo",
+        "price" : "R$ 39,90",
+        "size" : "skolFardo"
+    },  
+
+    {
+        "id" : 2,
+        "src" : "src/assets/cervejas/fardoBrahma.webp",
+        "title" : "Brahma Fardo",
+        "price" : "R$ 37,00",
+        "size" : "brahmaFardo"
+    },
+
+    {
+        "id" : 3,
+        "src" : "src/assets/cervejas/fardoItaipava.webp",
+        "title" : "Itaipava Fardo",
+        "price" : "R$ 30,00",
+        "size" : "itaipavaFardo"
+    },
+
+    {
+        "id" : 4,
+        "src" : "src/assets/cervejas/heiniken.webp",
+        "title" : "Heiniken Lata 269ml",
+        "price" : "R$ 5,50",
+        "size" : "lataHeiniken"
+    },
+
+    {
+        "id" : 5,
+        "src" : "src/assets/cervejas/budweiser.webp",
+        "title" : "Budweiser Lata 350ml",
+        "price" : "R$ 6,00",
+        "size" : "lataBud"
+    },
+
+    {
+        "id" : 6,
+        "src" : "src/assets/cervejas/skol.webp",
+        "title" : "Skol Lata 269ml",
+        "price" : "R$ 4,30",
+        "size" : "lataSkol"
+    },
+
+    {
+        "id" : 7,
+        "src" : "src/assets/cervejas/itaipava.webp",
+        "title" : "Itaipava Lata 320ml",
+        "price" : "R$ 3,00",
+        "size" : "lataItaipava"
+    },
+
+    {
+        "id" : 8,
+        "src" : "src/assets/cervejas/ChoppBrahma.webp",
+        "title" : "Chopp Brahma Lata 350ml",
+        "price" : "R$ 7,00",
+        "size" : "lataBrahma"
+    },
+
+    {
+        "id" : 9,
+        "src" : "src/assets/cervejas/duploMalte.webp",
+        "title" : "Brahma Duplo Malte Lata 269ml",
+        "price" : "R$ 4,00",
+        "size" : "lataDuplo"
+    }
+]

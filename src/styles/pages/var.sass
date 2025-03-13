@@ -1,0 +1,56 @@
+@use '../variables'
+
+.grid-container-var
+    display: flex
+    justify-content: space-between
+    align-items: center
+    gap: 50px
+    flex-wrap: wrap
+    padding: 100px
+
+    .image-card-var
+        flex: 1 1 23%
+        border: 1px solid variables.$black
+        text-align: center
+        border-radius: 5px
+        padding: 30px
+        margin-top: 3rem
+
+        img
+            width: 100%
+
+        &.appleIce img
+            width: 250px
+
+        &.senses img
+            width: 250px
+
+
+    h3
+        margin: 10px
+
+    .price
+        font-size: 17px
+
+    .plus
+        position: absolute
+        background-color: transparent
+        border: none
+        cursor: pointer
+        color: variables.$dark
+        font-size: 1.1em
+        margin-left: 5px
+
+@media screen and (max-width: 768px)
+    .grid-container-var
+        flex-direction: column
+        padding: 20px 40px
+        .image-card-var
+            width: 350px
+
+        img
+            width: 300px !important
+
+        .image-card-var
+            &.appleIce img
+                width: 160px !important

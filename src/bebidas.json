@@ -1,0 +1,73 @@
+[
+    {
+        "id" : 1,
+        "src" : "src/assets/bebidas/coca.webp",
+        "title" : "Coca-Cola Lata",
+        "price" : "R$ 4,50",
+        "size" : "coca-cola"
+    },
+
+    {
+        "id" : 2,
+        "src" : "src/assets/bebidas/brahma.webp",
+        "title" : "Brahma Lata",
+        "price" : "R$ 4,40",
+        "size" : "brahma"
+    },
+
+    {
+        "id" : 3,
+        "src" : "src/assets/bebidas/vodka.webp",
+        "title" : "Vodka Sky",
+        "price" : "R$ 22,50",
+        "size" : "vodka"
+    },
+
+    {
+        "id" : 4,
+        "src" : "src/assets/bebidas/redbull.webp",
+        "title" : "RedBull",
+        "price" : "R$ 9,50",
+        "size" : "redbull"
+    },
+
+    {
+        "id" : 5,
+        "src" : "src/assets/bebidas/syn-ice.webp",
+        "title" : "Syn ice Lemon",
+        "price" : "R$ 3,00",
+        "size" : "syn"
+    },
+
+    {
+        "id" : 6,
+        "src" : "src/assets/bebidas/kriskoff-menta.webp",
+        "title" : "Vodka Kriskof Menta",
+        "price" : "R$ 9,00",
+        "size" : "kriskof"
+    },
+
+    {
+        "id" : 7,
+        "src" : "src/assets/bebidas/jack.webp",
+        "title" : "Wisky Jack Daniel´s",
+        "price" : "R$ 130,00",
+        "size" : "jack"
+    },
+
+    {
+        "id" : 8,
+        "src" : "src/assets/bebidas/heineken.webp",
+        "title" : "Heineken Long neck",
+        "price" : "R$ 6,50",
+        "size" : "heineken"
+    },
+
+    {
+        "id" : 9,
+        "src" : "src/assets/bebidas/redlabel.webp",
+        "title" : "Wisky Red Label",
+        "price" : "R$ 90,00",
+        "size" : "red"
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "id" : 1,
+        "src" : "src/assets/destilados/askov.webp",
+        "title" : "Vodka Askov",
+        "price" : "R$ 19,00",
+        "size" : "askov"
+    },
+
+    {
+        "id" : 2,
+        "src" : "src/assets/destilados/ballena.webp",
+        "title" : "Ballena",
+        "price" : "R$ 140,00",
+        "size" : "ballena"
+    },
+
+    {
+        "id" : 3,
+        "src" : "src/assets/destilados/absolut.webp",
+        "title" : "Vodka Absolut",
+        "price" : "R$ 80,00",
+        "size" : "absolut"
+    },
+
+    {
+        "id" : 4,
+        "src" : "src/assets/destilados/bananinha.webp",
+        "title" : "Cachaça sabor bananinha",
+        "price" : "R$ 20,00",
+        "size" : "bananinha"
+    },
+
+    {
+        "id" : 5,
+        "src" : "src/assets/destilados/vinho.webp",
+        "title" : "Cantinho do vale",
+        "price" : "R$ 5,00",
+        "size" : "cantinho"
+    },
+
+    {
+        "id" : 6,
+        "src" : "src/assets/destilados/gin.webp",
+        "title" : "Gin Eternity Melancia",
+        "price" : "R$ 20,00",
+        "size" : "gin"
+    },
+
+    {
+        "id" : 7,
+        "src" : "src/assets/destilados/licor.webp",
+        "title" : "Licor 43",
+        "price" : "R$ 150,00",
+        "size" : "licor"
+    },
+
+    {
+        "id" : 8,
+        "src" : "src/assets/destilados/passport.webp",
+        "title" : "Wisky Passport",
+        "price" : "R$ 40,00",
+        "size" : "passport"
+    },
+
+    {
+        "id" : 9,
+        "src" : "src/assets/destilados/velhobarreiro.webp",
+        "title" : "Cachaça Velho barreiro",
+        "price" : "R$ 13,00",
+        "size" : "velho"
+    }
+]

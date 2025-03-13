@@ -1,0 +1,74 @@
+@use '../variables'
+
+.grid-container-des
+    display: flex
+    justify-content: space-between
+    align-items: center
+    gap: 50px
+    flex-wrap: wrap
+    padding: 100px
+
+    .image-card-des
+        flex: 1 1 23%
+        border: 1px solid variables.$black
+        text-align: center
+        border-radius: 5px
+        padding: 30px
+        margin-top: 3rem
+
+        img
+            width: 100%
+
+        &.askov img
+            width: 390px
+
+        &.ballena img
+            width: 390px
+
+        &.absolut img
+            width: 390px
+
+        &.bananinha img
+            width: 390px
+
+        &.cantinho img
+            width: 390px
+
+        &.gin img
+            width: 390px
+
+        &.licor img
+            width: 300px
+
+        &.passport img
+            width: 400px
+
+        &.velho img
+            width: 390px
+
+    h3
+        margin-bottom: 10px
+
+    .price
+        font-size: 17px
+
+    .plus
+        position: absolute
+        background-color: transparent
+        border: none
+        cursor: pointer
+        color: variables.$dark
+        font-size: 1.1em
+        margin-left: 5px
+
+@media screen and (max-width: 768px)
+    .grid-container-des
+        flex-direction: column
+        padding: 20px 40px
+
+    .image-card-des
+        width: 100%
+
+        img
+            width: 300px !important
+            
