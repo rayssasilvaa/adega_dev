@@ -3,6 +3,7 @@ import { FaCartPlus } from "react-icons/fa6";
 import Banner from './Image'
 import ImageData from '../bebidas.json'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 import '../styles/components/maingrid.sass'
 
